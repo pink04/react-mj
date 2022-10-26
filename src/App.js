@@ -10,6 +10,7 @@ function App() {
       <GlobalStyle />
       <div className="App">
         <Header />
+        aa
         <Routes />
       </div>
       <ReactQueryDevtools initialIsOpen={true} />
