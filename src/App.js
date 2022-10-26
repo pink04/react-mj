@@ -3,7 +3,6 @@ import GlobalStyle from './assets/GlobalStyle';
 import { Header } from './components/common/Header';
 import Routes from './Routes';
 import { ReactQueryDevtools } from 'react-query/devtools';
-import Home from './pages/Home';
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
       <GlobalStyle />
       <div className="App">
         <Header />
-        <Home />
         <Routes />
       </div>
       <ReactQueryDevtools initialIsOpen={true} />
