@@ -1,18 +1,16 @@
 import './assets/App.css';
-import GlobalStyle from './assets/GlobalStyle';
-import { Header } from './components/common/Header';
+import { Header } from './components/Header';
 import Routes from './Routes';
 import { ReactQueryDevtools } from 'react-query/devtools';
+import Container from '@mui/material/Container';
 
 function App() {
   return (
     <>
-      <GlobalStyle />
-      <div className="App">
+      <Container className="App" fixed>
         <Header />
-        aa
         <Routes />
-      </div>
+      </Container>
       <ReactQueryDevtools initialIsOpen={true} />
     </>
   );
